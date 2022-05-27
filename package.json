@@ -1,0 +1,35 @@
+{
+  "name": "ajs-25_11.1-symbols-iterators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenakoch122/ajs-25_11.1-symbols-iterators.git"
+  },
+  "author": "elenakoch122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenakoch122/ajs-25_11.1-symbols-iterators/issues"
+  },
+  "homepage": "https://github.com/elenakoch122/ajs-25_11.1-symbols-iterators#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.7"
+  }
+}
